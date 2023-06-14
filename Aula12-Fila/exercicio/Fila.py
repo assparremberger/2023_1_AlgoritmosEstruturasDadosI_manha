@@ -7,7 +7,6 @@ class Fila:
         self.tamanho = 0
     
     def add(self, apto):
-#        nodo = No(valor)
         if self.primeiro == None:
             self.primeiro = apto
             self.ultimo = apto
